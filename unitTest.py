@@ -40,7 +40,7 @@ def recursiveFib(value): # oh god my brain
 
 
 # initialized by creating a class that inherits from unittest.TestCase
-class IsEvenTests(unittest.TestCase):
+class VariousTests(unittest.TestCase):
     def testTwo(self):
       self.assertEqual(reverse_list([1,3,5]), [5,3,1])
       self.assertEqual(reverse_list([1,2,3,4]), [4,3,2,1])
