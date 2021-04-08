@@ -1,6 +1,5 @@
 import unittest
 
-
 def reverse_list(list):
   for i in range(int(len(list)/2)):
     list[i], list[len(list)-1-i] = list[len(list)-1-i], list[i]
